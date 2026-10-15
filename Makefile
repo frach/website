@@ -19,7 +19,7 @@ build: deps ## Build the site into $(PUBLIC_DIR)
 
 .PHONY: serve
 serve: deps ## Run local dev server on http://localhost:$(PORT)
-	$(HUGO) server --disableFastRender --logLevel info -p $(PORT) -b $(BASE_URL)
+	$(HUGO) server --disableFastRender --logLevel info -D -p $(PORT) -b $(BASE_URL)
 
 .PHONY: serve-drafts
 serve-drafts: deps ## Dev server including drafts and future content
