@@ -13,7 +13,16 @@ layout: hextra-home
   Terraform, EKS and serverless on AWS
 {{< /hextra/hero-headline >}}
 
-<div style="margin-top:1.5rem;"></div>
+<div style="margin-top:3rem;">
+  <img class="hero-light" src="images/hero-a-bubbles.svg"
+       alt="Cloud resources as connected bubbles: database, storage, functions, containers, security and network"
+       style="width:100%;height:auto;border-radius:16px;" loading="lazy">
+  <img class="hero-dark" src="images/hero-a-bubbles-dark.svg"
+       alt="" aria-hidden="true"
+       style="width:100%;height:auto;border-radius:16px;" loading="lazy">
+</div>
+
+<div style="margin-top:2rem;"></div>
 
 {{< hextra/hero-subtitle >}}
   I'm Filip, a DevOps engineer with 10 years on AWS. Here I write about Terraform, EKS and serverless, share open-source tools, and take on a few fixed-price projects.

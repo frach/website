@@ -1,5 +1,6 @@
 ---
 title: About
+description: "DevOps and cloud engineer with ten years on AWS: Terraform, EKS, CI/CD and serverless."
 ---
 
 <!-- Optional photo: put it in static/images/filip.jpg, then uncomment
@@ -36,7 +37,7 @@ I coached AWS workshops for external companies (2020-2024), and at F-Secure I st
 ## Open source
 
 - [Serverless PyPI index](https://github.com/frach/terraform-aws-serverless-pypi-index): a Terraform module for a private PyPI index on S3, CloudFront and Lambda.
-- [EKS bootstrap](https://github.com/frach/<eks-repo>): a production-ready EKS cluster in Terraform.
+- [EKS bootstrap](https://github.com/frach/eks-bootstrap): a production-ready EKS cluster in Terraform.
 
 More of my thinking is on the [blog](/blog/), and the rest of my code is on [GitHub](https://github.com/frach).
 

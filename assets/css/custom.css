@@ -1,0 +1,3 @@
+.hero-dark { display: none; }
+html.dark .hero-light { display: none; }
+html.dark .hero-dark { display: block; }

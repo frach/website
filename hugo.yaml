@@ -16,10 +16,10 @@ markup:
 
 menu:
   main:
-    - identifier: services
-      name: Services
-      pageRef: /services
-      weight: 1
+    # - identifier: services
+    #   name: Services
+    #   pageRef: /services
+    #   weight: 1
     - identifier: blog
       name: Blog
       pageRef: /blog
@@ -48,10 +48,15 @@ menu:
         icon: linkedin
 
 params:
-  description: "Fixed-price Terraform, EKS and CI/CD work on AWS by an independent DevOps engineer with 10 years of experience."
+  description: "DevOps engineer with Terraform, EKS and serverless on AWS."
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      width: 28
+      height: 28
   footer:
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: false
